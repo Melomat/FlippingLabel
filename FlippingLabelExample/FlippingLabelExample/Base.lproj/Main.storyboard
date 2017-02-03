@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVH-Ac-YLv" userLabel="secondes 2" customClass="FlipingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVH-Ac-YLv" userLabel="secondes 2" customClass="FlippingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
                                 <rect key="frame" x="300" y="331" width="25" height="35"/>
                                 <color key="backgroundColor" red="0.14823190789999999" green="0.71060341279999995" blue="0.79630713470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -53,7 +53,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIz-Bo-XDS" userLabel="secondes 1" customClass="FlipingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIz-Bo-XDS" userLabel="secondes 1" customClass="FlippingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
                                 <rect key="frame" x="271" y="331" width="25" height="35"/>
                                 <color key="backgroundColor" red="0.14823190789999999" green="0.71060341279999995" blue="0.79630713470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -85,7 +85,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHW-uV-U6b" userLabel="heure 1" customClass="FlipingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHW-uV-U6b" userLabel="heure 1" customClass="FlippingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
                                 <rect key="frame" x="42" y="301" width="50" height="65"/>
                                 <color key="backgroundColor" red="0.14823190789999999" green="0.71060341279999995" blue="0.79630713470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -106,18 +106,18 @@
                                 </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="U2h-bf-xpS"/>
                                         <exclude reference="34N-1U-39T"/>
+                                        <exclude reference="U2h-bf-xpS"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular">
                                     <mask key="constraints">
-                                        <include reference="U2h-bf-xpS"/>
                                         <include reference="34N-1U-39T"/>
+                                        <include reference="U2h-bf-xpS"/>
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRn-Hc-WUQ" userLabel="heure 3" customClass="FlipingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRn-Hc-WUQ" userLabel="heure 3" customClass="FlippingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
                                 <rect key="frame" x="159" y="301" width="50" height="65"/>
                                 <color key="backgroundColor" red="0.14823190789999999" green="0.71060341279999995" blue="0.79630713470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -138,18 +138,18 @@
                                 </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="mhU-RH-ZlK"/>
                                         <exclude reference="DPT-Nb-Z1L"/>
+                                        <exclude reference="mhU-RH-ZlK"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular">
                                     <mask key="constraints">
-                                        <include reference="mhU-RH-ZlK"/>
                                         <include reference="DPT-Nb-Z1L"/>
+                                        <include reference="mhU-RH-ZlK"/>
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfp-2s-bgU" userLabel="heure 4" customClass="FlipingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfp-2s-bgU" userLabel="heure 4" customClass="FlippingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
                                 <rect key="frame" x="215" y="301" width="50" height="65"/>
                                 <color key="backgroundColor" red="0.14823190789999999" green="0.71060341279999995" blue="0.79630713470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -170,18 +170,18 @@
                                 </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="sKO-10-jvD"/>
                                         <exclude reference="Pb4-1N-QOk"/>
+                                        <exclude reference="sKO-10-jvD"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular">
                                     <mask key="constraints">
-                                        <include reference="sKO-10-jvD"/>
                                         <include reference="Pb4-1N-QOk"/>
+                                        <include reference="sKO-10-jvD"/>
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeD-gP-TMV" userLabel="heure 2" customClass="FlipingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeD-gP-TMV" userLabel="heure 2" customClass="FlippingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
                                 <rect key="frame" x="98" y="301" width="50" height="65"/>
                                 <color key="backgroundColor" red="0.14823190789999999" green="0.71060341279999995" blue="0.79630713470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -202,14 +202,14 @@
                                 </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="g7g-ox-nl1"/>
                                         <exclude reference="Bvf-fM-uUf"/>
+                                        <exclude reference="g7g-ox-nl1"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular">
                                     <mask key="constraints">
-                                        <include reference="g7g-ox-nl1"/>
                                         <include reference="Bvf-fM-uUf"/>
+                                        <include reference="g7g-ox-nl1"/>
                                     </mask>
                                 </variation>
                             </label>
@@ -252,7 +252,7 @@
                                 <rect key="frame" x="271" y="348" width="25" height="1"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.9731445312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xm-7w-Ri1" customClass="FlipingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xm-7w-Ri1" customClass="FlippingLabel" customModule="FlippingLabelExample" customModuleProvider="target">
                                 <rect key="frame" x="42" y="401" width="254" height="65"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.69411764710000001" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="45"/>
@@ -360,45 +360,45 @@
                                 <exclude reference="4C3-9V-ypT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="fen-iD-RGj"/>
-                                <exclude reference="oa6-1I-UMg"/>
-                                <exclude reference="ywZ-eH-UlO"/>
-                                <exclude reference="0VG-NV-eBd"/>
-                                <exclude reference="fc6-Gy-5Rm"/>
-                                <exclude reference="xhl-mQ-670"/>
                                 <exclude reference="ElU-BB-K76"/>
                                 <exclude reference="Vn8-yg-db7"/>
                                 <exclude reference="cyQ-uw-JUO"/>
                                 <exclude reference="jgK-gQ-fHF"/>
                                 <exclude reference="wuY-pl-dNu"/>
-                                <exclude reference="AjK-a0-rv9"/>
-                                <exclude reference="noW-WF-Kdm"/>
                                 <exclude reference="LiK-v5-5pl"/>
                                 <exclude reference="Yg5-wa-U4D"/>
                                 <exclude reference="hSu-Ba-vcC"/>
                                 <exclude reference="tDH-oP-DfN"/>
+                                <exclude reference="fen-iD-RGj"/>
+                                <exclude reference="oa6-1I-UMg"/>
+                                <exclude reference="ywZ-eH-UlO"/>
                                 <exclude reference="TWA-4g-JTY"/>
                                 <exclude reference="fvV-vv-0yq"/>
                                 <exclude reference="nQr-zX-OOe"/>
                                 <exclude reference="uin-HO-X4l"/>
+                                <exclude reference="0VG-NV-eBd"/>
+                                <exclude reference="fc6-Gy-5Rm"/>
+                                <exclude reference="xhl-mQ-670"/>
+                                <exclude reference="hxf-0W-OJ7"/>
+                                <exclude reference="AjK-a0-rv9"/>
+                                <exclude reference="noW-WF-Kdm"/>
                                 <exclude reference="0ve-5n-5It"/>
                                 <exclude reference="3Dm-JJ-JDC"/>
                                 <exclude reference="MGm-dj-4Mz"/>
                                 <exclude reference="RTG-Zo-SCv"/>
                                 <exclude reference="s7S-Qd-mFc"/>
                                 <exclude reference="u89-cm-11M"/>
-                                <exclude reference="hxf-0W-OJ7"/>
-                                <exclude reference="MeM-1Y-BUV"/>
                                 <exclude reference="0Hm-kF-15o"/>
                                 <exclude reference="Etn-rS-BLd"/>
                                 <exclude reference="vRc-Tq-DbF"/>
-                                <exclude reference="4Wa-jm-vd7"/>
-                                <exclude reference="ZOJ-6M-hy2"/>
+                                <exclude reference="MeM-1Y-BUV"/>
                                 <exclude reference="78H-Ev-9HT"/>
                                 <exclude reference="eho-u4-Xp1"/>
                                 <exclude reference="sFw-Fl-CCN"/>
                                 <exclude reference="tHc-yi-i0f"/>
                                 <exclude reference="zO3-QC-Wdg"/>
+                                <exclude reference="4Wa-jm-vd7"/>
+                                <exclude reference="ZOJ-6M-hy2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -417,45 +417,45 @@
                                 <include reference="4C3-9V-ypT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="fen-iD-RGj"/>
-                                <include reference="oa6-1I-UMg"/>
-                                <exclude reference="ywZ-eH-UlO"/>
-                                <include reference="0VG-NV-eBd"/>
-                                <include reference="fc6-Gy-5Rm"/>
-                                <include reference="xhl-mQ-670"/>
                                 <include reference="ElU-BB-K76"/>
                                 <include reference="Vn8-yg-db7"/>
                                 <include reference="cyQ-uw-JUO"/>
                                 <include reference="jgK-gQ-fHF"/>
                                 <include reference="wuY-pl-dNu"/>
-                                <include reference="AjK-a0-rv9"/>
-                                <include reference="noW-WF-Kdm"/>
                                 <include reference="LiK-v5-5pl"/>
                                 <exclude reference="Yg5-wa-U4D"/>
                                 <include reference="hSu-Ba-vcC"/>
                                 <include reference="tDH-oP-DfN"/>
+                                <exclude reference="fen-iD-RGj"/>
+                                <include reference="oa6-1I-UMg"/>
+                                <exclude reference="ywZ-eH-UlO"/>
                                 <include reference="TWA-4g-JTY"/>
                                 <include reference="fvV-vv-0yq"/>
                                 <include reference="nQr-zX-OOe"/>
                                 <include reference="uin-HO-X4l"/>
+                                <include reference="0VG-NV-eBd"/>
+                                <include reference="fc6-Gy-5Rm"/>
+                                <include reference="xhl-mQ-670"/>
+                                <include reference="hxf-0W-OJ7"/>
+                                <include reference="AjK-a0-rv9"/>
+                                <include reference="noW-WF-Kdm"/>
                                 <include reference="0ve-5n-5It"/>
                                 <include reference="3Dm-JJ-JDC"/>
                                 <include reference="MGm-dj-4Mz"/>
                                 <include reference="RTG-Zo-SCv"/>
                                 <include reference="s7S-Qd-mFc"/>
                                 <include reference="u89-cm-11M"/>
-                                <include reference="hxf-0W-OJ7"/>
-                                <include reference="MeM-1Y-BUV"/>
                                 <include reference="0Hm-kF-15o"/>
                                 <include reference="Etn-rS-BLd"/>
                                 <include reference="vRc-Tq-DbF"/>
-                                <include reference="4Wa-jm-vd7"/>
-                                <include reference="ZOJ-6M-hy2"/>
+                                <include reference="MeM-1Y-BUV"/>
                                 <include reference="78H-Ev-9HT"/>
                                 <include reference="eho-u4-Xp1"/>
                                 <include reference="sFw-Fl-CCN"/>
                                 <exclude reference="tHc-yi-i0f"/>
                                 <include reference="zO3-QC-Wdg"/>
+                                <include reference="4Wa-jm-vd7"/>
+                                <include reference="ZOJ-6M-hy2"/>
                             </mask>
                         </variation>
                     </view>

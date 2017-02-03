@@ -1,5 +1,5 @@
 //
-//  FlipingLabel.swift
+//  FlippingLabel.swift
 //  Boucing Test
 //
 //  Created by Matthias Mellouli on 14/05/2015.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FlipingLabel: UILabel {
+class FlippingLabel: UILabel {
     
     //Constants
     fileprivate let topAnimationDuration: CFTimeInterval! = 0.5
@@ -121,7 +121,7 @@ class FlipingLabel: UILabel {
 
 
 //MARK: - Animations
-extension FlipingLabel {
+extension FlippingLabel {
     
     /// Start the flipping animation effect
     func animateTiles() {
@@ -269,7 +269,7 @@ extension FlipingLabel {
 
 
 //MARK: - CAAnimationDelegate
-extension FlipingLabel: CAAnimationDelegate {
+extension FlippingLabel: CAAnimationDelegate {
     
     
     func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {

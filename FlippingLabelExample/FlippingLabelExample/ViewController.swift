@@ -10,14 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var hourTensLabel: FlipingLabel!
-    @IBOutlet weak var hourUnitsLabel: FlipingLabel!
-    @IBOutlet weak var minuteTensLabel: FlipingLabel!
-    @IBOutlet weak var minuteUnitsLabel: FlipingLabel!
-    @IBOutlet weak var secondTensLabel: FlipingLabel!
-    @IBOutlet weak var secondUnitsLabel: FlipingLabel!
+    @IBOutlet weak var hourTensLabel: FlippingLabel!
+    @IBOutlet weak var hourUnitsLabel: FlippingLabel!
+    @IBOutlet weak var minuteTensLabel: FlippingLabel!
+    @IBOutlet weak var minuteUnitsLabel: FlippingLabel!
+    @IBOutlet weak var secondTensLabel: FlippingLabel!
+    @IBOutlet weak var secondUnitsLabel: FlippingLabel!
     
-    @IBOutlet weak var fullDateLabel: FlipingLabel!
+    @IBOutlet weak var fullDateLabel: FlippingLabel!
 
     var timer: Timer!
     

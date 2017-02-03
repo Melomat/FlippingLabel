@@ -13,7 +13,7 @@
 		CBAA1F4A1E44E0B50010A603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAA1F491E44E0B50010A603 /* Assets.xcassets */; };
 		CBAA1F4D1E44E0B50010A603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBAA1F4B1E44E0B50010A603 /* LaunchScreen.storyboard */; };
 		CBAA1F581E44E0B60010A603 /* FlippingLabelExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA1F571E44E0B60010A603 /* FlippingLabelExampleTests.swift */; };
-		CBAA1F6C1E44E1810010A603 /* FlipingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA1F6B1E44E1810010A603 /* FlipingLabel.swift */; };
+		CBAA1F6C1E44E1810010A603 /* FlippingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA1F6B1E44E1810010A603 /* FlippingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		CBAA1F531E44E0B60010A603 /* FlippingLabelExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlippingLabelExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAA1F571E44E0B60010A603 /* FlippingLabelExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippingLabelExampleTests.swift; sourceTree = "<group>"; };
 		CBAA1F591E44E0B60010A603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBAA1F6B1E44E1810010A603 /* FlipingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlipingLabel.swift; path = ../FlippingLabel/FlipingLabel.swift; sourceTree = "<group>"; };
+		CBAA1F6B1E44E1810010A603 /* FlippingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlippingLabel.swift; path = ../FlippingLabel/FlippingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 		CBAA1F681E44E15E0010A603 /* FlippingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				CBAA1F6B1E44E1810010A603 /* FlipingLabel.swift */,
+				CBAA1F6B1E44E1810010A603 /* FlippingLabel.swift */,
 			);
 			name = FlippingLabel;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBAA1F6C1E44E1810010A603 /* FlipingLabel.swift in Sources */,
+				CBAA1F6C1E44E1810010A603 /* FlippingLabel.swift in Sources */,
 				CBAA1F451E44E0B50010A603 /* ViewController.swift in Sources */,
 				CBAA1F431E44E0B50010A603 /* AppDelegate.swift in Sources */,
 			);
@@ -422,6 +422,7 @@
 				CBAA1F5E1E44E0B60010A603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBAA1F5F1E44E0B60010A603 /* Build configuration list for PBXNativeTarget "FlippingLabelExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				CBAA1F611E44E0B60010A603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

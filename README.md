@@ -2,6 +2,8 @@
 UILabel acting like a "flipping clock"  tile
 
 
+![alt tag](https://github.com/Melomat/FlippingLabel/blob/master/FlippingLabel.gif)
+
 Requirements
 
 FlippingLabel requires Xcode 8, targeting iOS 9.0

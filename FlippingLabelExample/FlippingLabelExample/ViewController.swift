@@ -42,31 +42,31 @@ class ViewController: UIViewController {
         if animated == true {
             
             //HOURS
-            hourTensLabel.updateWithText(units[0].substring(to: units[0].index(units[0].startIndex, offsetBy: 1)))
-            hourUnitsLabel.updateWithText(units[0].substring(from: units[0].index(units[0].startIndex, offsetBy: 1)))
+            hourTensLabel.updateWithText(String(units[0].prefix(1)))
+            hourUnitsLabel.updateWithText(String(units[0].suffix(1)))
             
             //MINUTES
-            minuteTensLabel.updateWithText(units[1].substring(to: units[0].index(units[0].startIndex, offsetBy: 1)))
-            minuteUnitsLabel.updateWithText(units[1].substring(from: units[0].index(units[0].startIndex, offsetBy: 1)))
+            minuteTensLabel.updateWithText(String(units[1].prefix(1)))
+            minuteUnitsLabel.updateWithText(String(units[1].suffix(1)))
             
             //SECONDS
-            secondTensLabel.updateWithText(units[2].substring(to: units[0].index(units[0].startIndex, offsetBy: 1)))
-            secondUnitsLabel.updateWithText(units[2].substring(from: units[0].index(units[0].startIndex, offsetBy: 1)))
+            secondTensLabel.updateWithText(String(units[2].prefix(1)))
+            secondUnitsLabel.updateWithText(String(units[2].suffix(1)))
             
             fullDateLabel.updateWithText(fullDateString)
         } else {
             
             //HOURS
-            hourTensLabel.text = units[0].substring(to: units[0].index(units[0].startIndex, offsetBy: 1))
-            hourUnitsLabel.text = units[0].substring(from: units[0].index(units[0].startIndex, offsetBy: 1))
+            hourTensLabel.text = String(units[0].prefix(1))
+            hourUnitsLabel.text = String(units[0].suffix(1))
             
             //MINUTES
-            minuteTensLabel.text = units[1].substring(to: units[0].index(units[0].startIndex, offsetBy: 1))
-            minuteUnitsLabel.text = units[1].substring(from: units[0].index(units[0].startIndex, offsetBy: 1))
+            minuteTensLabel.text = String(units[1].prefix(1))
+            minuteUnitsLabel.text = String(units[1].suffix(1))
             
             //SECONDS
-            secondTensLabel.text = units[2].substring(to: units[0].index(units[0].startIndex, offsetBy: 1))
-            secondUnitsLabel.text = units[2].substring(from: units[0].index(units[0].startIndex, offsetBy: 1))
+            secondTensLabel.text = String(units[2].prefix(1))
+            secondUnitsLabel.text = String(units[2].suffix(1))
             
             fullDateLabel.text = fullDateString
             

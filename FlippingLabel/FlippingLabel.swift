@@ -156,17 +156,17 @@ extension FlippingLabel {
         
         topAnimation.duration = topAnimationDuration
         topAnimation.fromValue = 0.0
-        topAnimation.toValue = M_PI_2
+        topAnimation.toValue = Double.pi/2
         topAnimation.delegate = self
         topAnimation.isRemovedOnCompletion = false;
-        topAnimation.fillMode = kCAFillModeForwards
-        topAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
+        topAnimation.fillMode = CAMediaTimingFillMode.forwards
+        topAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
         topAnimation.setValue("topAnimation", forKey: "id")
         previousTextTopView.layer .add(topAnimation, forKey: "topRotation")
         
         var perspectiveTransform: CATransform3D = CATransform3DIdentity;
         perspectiveTransform.m34 = 1.0 / 400;
-        perspectiveTransform = CATransform3DRotate(perspectiveTransform, CGFloat(M_PI_2), 1.0, 0.0, 0.0);
+        perspectiveTransform = CATransform3DRotate(perspectiveTransform, CGFloat.pi/2, 1.0, 0.0, 0.0);
         previousTextTopView.layer.transform = perspectiveTransform;
     }
     
@@ -212,7 +212,7 @@ extension FlippingLabel {
         let animation = CAKeyframeAnimation(keyPath: "path")
         animation.values = [path.cgPath, middlePath.cgPath, endPath.cgPath]
         animation.keyTimes = [0, 0.6, 1.0]
-        animation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn), CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear), CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)]
+        animation.timingFunctions = [CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn), CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear), CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)]
         animation.duration = topAnimationDuration + bottomAnimationDuration
         animation.isRemovedOnCompletion = false
         
@@ -228,18 +228,18 @@ extension FlippingLabel {
         let bottomAnimation = CABasicAnimation(keyPath:"transform.rotation.x")
         
         bottomAnimation.duration = bottomAnimationDuration
-        bottomAnimation.fromValue = M_PI_2
+        bottomAnimation.fromValue = Double.pi/2
         bottomAnimation.toValue = 0.0
         bottomAnimation.isRemovedOnCompletion = false;
-        bottomAnimation.fillMode = kCAFillModeForwards
-        bottomAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        bottomAnimation.fillMode = CAMediaTimingFillMode.forwards
+        bottomAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         bottomAnimation.setValue("bottomAnimation", forKey: "id")
         bottomAnimation.delegate = self
         newTextBottomView.layer.add(bottomAnimation, forKey: "bottomRotation")
         
         var perspectiveTransform: CATransform3D = CATransform3DIdentity
         perspectiveTransform.m34 = 1.0 / -350;
-        perspectiveTransform = CATransform3DRotate(perspectiveTransform, CGFloat(M_PI_2), 1.0, 0.0, 0.0);
+        perspectiveTransform = CATransform3DRotate(perspectiveTransform, CGFloat.pi/2, 1.0, 0.0, 0.0);
         newTextBottomView.layer.transform = perspectiveTransform;
         
     }
